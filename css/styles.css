@@ -1,0 +1,281 @@
+/*
+	
+	Author: Marshall Hannah
+	Date: 12/17/2014
+	
+*/
+
+/*
+		Primary Colors
+		
+		Dark Blue #292c37
+		Dark Red  #9f111b
+		Grey      #3c3c3c
+		
+*/
+
+		
+/*****  Basic Styles  *****/
+
+body {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #3c3c3c;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: 700;
+	color: #292c37;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 1.8;	
+}
+
+h2 {
+	font-weight: 1.6;
+}
+
+h3 {
+	font-weight: 1.4;
+}
+
+h4 {
+	font-weight: 1.2;
+}
+
+p {
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*****  Custom Styles  *****/
+
+.parallax-bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+	background-image: url('../img/105-md.jpg')
+}
+
+.logo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+	background-image: url('../img/logo.jpg')
+}
+
+.block {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.title {
+	border-bottom: 3px solid #292c37;
+	margin-bottom: 20px;
+}
+
+/* Nav Styles */
+
+.navbar {
+	margin-bottom: 0px;
+	border-bottom:1px solid #e2e2e2;
+}
+
+.navbar-brand {
+	margin-bottom: 15px;
+	width: 100px;
+	height: 85px;
+  background-repeat: no-repeat;
+	background-image: url('../img/key-logo.jpg');
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+.navbar-default .navbar-nav {
+	padding-top: 25px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3c3c3c;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;	
+	margin: auto 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #9f111b;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color:#9f111b;
+	background: none;
+}
+
+/*****   About   *****/
+
+
+#about {
+	background-color: #eaeaea;
+}
+
+#about p {
+	padding: 40px 0;
+}
+
+#about img {
+	margin: 40px 0;
+}
+
+/*****   Services   *****/
+
+#services {
+	background-color: #292c37;
+}
+
+.services {
+	text-align: center;
+	height: 200px;
+	color: #fff;
+}
+
+#services span.glyphicon {
+	padding-top: 15%;
+	font-size: 4em;
+}
+
+#services h2 {
+	font-size: 1em;
+	color: #fff;
+}
+
+#graphic-design {
+	margin: 0;
+	background-color:  #46464f;
+}
+
+#web-design {
+	margin: 0;
+	background-color:  #68656d;
+}
+
+#video {
+	margin: 0;
+	background-color: #8f8c93;
+}
+
+/*****   Portfolio   *****/
+
+#portfolio {
+	background-color: #eaeaea;	
+	margin: 0;
+}
+
+#portfolio img {
+	margin: 15px 0;
+}
+
+#imagelightbox {
+  position: fixed;
+  z-index: 9999;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/*****   Video   *****/
+
+#video-section {
+	background-color: #fff;
+}
+
+/*****   Skillset   *****/
+
+#skillset {
+	background-color: #eaeaea;
+}
+
+.skills-chart {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.progress {
+	margin-bottom: 0;	
+}
+
+.progress-bar {
+	background-color: #9f111b;
+}
+
+.progress-texts span{
+	display:block;
+	padding:5px 0;
+	font-size:15px;
+}
+
+.progress-texts .progress-name{
+	float:left;
+	text-transform:uppercase;
+}
+
+.progress-texts .progress-value{
+	float:right;
+}
+
+/*****   Contact   *****/
+
+#contact {
+	background-color: #292c37;
+	color: #fff;
+}
+
+ul.social-links {
+	list-style: none;
+	text-decoration: none;
+	margin: auto 0;
+	text-align: center;
+}
+
+ul.social-links li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+ul.social-links li a {
+	font-size: 3em;
+	color: #292c37;
+	border-radius: 5px;
+	width: 80px;
+	padding: 10px;
+	margin-right: 10px;
+	background: #fff;
+}
+
+
+
+
+
