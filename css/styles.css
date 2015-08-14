@@ -188,7 +188,7 @@ p {
 /*****   Portfolio   *****/
 
 #portfolio {
-	background-color: #eaeaea;	
+	background-color: #fff;
 	margin: 0;
 }
 
@@ -202,6 +202,14 @@ p {
   -ms-touch-action: none;
   touch-action: none;
 }
+
+/***** Web *****/
+
+#web{
+	background-color: #eaeaea;	
+	margin: 0;
+}
+
 
 /*****   Video   *****/
 
